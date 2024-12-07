@@ -1,0 +1,94 @@
+@font-face {
+  font-family: glancyr_neue-medium;
+  src: url(../fonts/glancyr_neue-medium.otf);
+}
+
+@font-face {
+  font-family: glancyr-thin-200;
+  src: url(../fonts/glancyr-thin-200.otf);
+}
+
+@font-face {
+  font-family: roclette_pro-extra_light;
+  src: url(../fonts/roclette_pro-extra_light.otf);
+}
+
+/* ---------------👇🏻 BODY --------------- */
+body {
+  font-family: roclette_pro-extra_light;
+  /* overflow-x: hidden; */
+}
+
+h1 {
+  font-family: glancyr_neue-medium;
+}
+
+h2 {
+  font-family: glancyr-thin-200;
+}
+
+.text-spacing {
+  letter-spacing: 5px;
+  text-align: justify;
+}
+
+.text-thin-custom {
+  font-weight: 100;
+}
+/* ---------------👇🏻 NAVBAR --------------- */
+
+/* ---------------👇🏻 HEADER --------------- */
+
+.hero {
+  margin-top: 150px;
+  margin-bottom: 207px;
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+}
+.hero img {
+  max-height: auto; /* Ajusta el tamaño máximo a la altura del contenedor */
+  max-width: 80%; /* Ajusta el tamaño máximo al ancho del contenedor */
+  object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
+}
+
+@media (min-width: 600px) {
+  .hero {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .hero img {
+    max-height: auto; /* Ajusta el tamaño máximo a la altura del contenedor */
+    max-width: 18%; /* Ajusta el tamaño máximo al ancho del contenedor */
+    object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
+  }
+}
+
+/* ---------------👇🏻 CARDS --------------- */
+div h5,
+p {
+  font-family: roclette_pro-extra_light;
+}
+
+.card-size {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.custom-bg {
+  background-color: #262b30 !important;
+  color: white !important;
+}
+
+/* ---------------👇🏻 NUESTRA RADIO --------------- */
+section img {
+  max-width: 100%;
+  height: auto;
+}
+/* ---------------👇🏻 FOOTER --------------- */
+footer {
+  height: 50px;
+}
+.p_footer-font {
+  text-align: center;
+  font-size: smaller;
+}
